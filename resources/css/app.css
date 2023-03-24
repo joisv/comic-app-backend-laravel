@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    ::-webkit-scrollbar{
+    width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+    ::-webkit-scrollbar-thumb{
+        border-color: #5B21B6;
+    }
+    .tab th,
+    .tab td{
+        padding: 10px 12px;
+    }
+    .tab thead tr{
+        border-bottom: 2px solid #5B21B6;
+        }
+
+    .tab tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(56, 189, 248);
+    }
+    trix-toolbar [data-trix-button-group="file-tools"]{
+        display: none;
+      }
+    .menu ul a li{
+    margin-bottom: 10px;
+    }
+    
+    .menu ul a li span.material-icons{
+        color: #5b21b6;
+      }
+      .menu ul li a span.ml-3{
+        color: rgb(226, 232, 240);
+        font-weight: 600;
+        font-size: 25px;
+      }
+      button.mrr{
+        transform: scaleX(-1);
+      }
+      .bg-image{
+        box-shadow: inset 0px -8px 57px rgba(0, 0, 0, 0.8);
+        filter: blur(7px);
+      }
+
+      .bg-eps{
+        box-shadow: inset 0px -60px 65px 40px rgba(0, 0, 0, 0.2);
+      }
+      .box-shadow-nav{
+        box-shadow: 4px -4px 3px #008BD9;
+      }
+      .box-shadow-login{
+        box-shadow: 12px 12px 4px rgba(2, 30, 64, 0.42);
+      }
+      .popup-shadow{
+        box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+
+      .bg-detail{
+        opacity: 0.6;
+        box-shadow: inset 0px -60px 65px -40px rgba(0, 0, 0, 0.8);
+      }
+
+      div.trendd div.bg-image{
+        background-position: top;
+      }
+      /* .dash-mnnu{
+        box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+      } */
+      .dash-stats{
+        box-shadow: 11px 11px 4px rgba(33, 2, 83, 0.3);
+      }
+      .mens ul li{
+        margin-bottom: 11px;
+      }
+      .active {
+        color: white;
+        background: #5B21B6;
+        /* box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3); */
+        padding: 4px;
+        border-radius: 4px;
+      }
+       .glass{
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border:1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      }
+      .txt-shadow{
+        text-shadow: 8px 7px 10px rgba(0, 0, 0, 0.5);
+      }
+
+}
